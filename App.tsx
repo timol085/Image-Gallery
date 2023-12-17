@@ -29,6 +29,9 @@ const testImages: ImageData[] = [
   // { id: 12, title: "Beer", imageUrl: require("./assets/seven.jpg") },
 ];
 
+//<Carousel data={testImages} view="multi" border={false} />
+//view can be "single" or "multi" and border can be true or false
+
 export default function App() {
   return (
     <SafeAreaView style={styles.safeAreaView}>
